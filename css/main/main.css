@@ -18,15 +18,19 @@
   justify-content: center;
 }
 
-body {
-  background-color: red;
+.titulo {
+  font-weight: bold;
 }
+
+/* body {
+  background-color: red;
+} */
 
 /* Extra small devices (portrait phones) */
 @media (max-width: 575.98px) {
-  body {
-    background-color: #ff34e4; /* Red */
-  }
+  /* body {
+    background-color: #ff34e4;
+  } */
   .detalles-pelicula {
     margin-top: 2rem;
   }
@@ -34,9 +38,9 @@ body {
 
 /* Small devices (landscape phones) */
 @media (min-width: 576px) {
-  body {
-    background-color: #bcde00; /* Green */
-  }
+  /* body {
+    background-color: #bcde00;
+  } */
   .detalles-pelicula {
     margin-top: 2rem;
   }
@@ -44,21 +48,21 @@ body {
 
 /* Medium devices (tablets) */
 @media (min-width: 768px) {
-  body {
-    background-color: #00e53d; /* Blue */
-  }
+  /* body {
+    background-color: #00e53d;
+  } */
 }
 
 /* Large devices (desktops) */
 @media (min-width: 992px) {
-  body {
-    background-color: #00858a; /* Yellow */
-  }
+  /* body {
+    background-color: #00858a;
+  } */
 }
 
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {
-  body {
-    background-color: #c800c8; /* Pink */
-  }
+  /* body {
+    background-color: #c800c8;
+  } */
 }
