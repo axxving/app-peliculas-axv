@@ -1,0 +1,64 @@
+#main {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: red;
+}
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 575.98px) {
+  body {
+    background-color: #ff34e4; /* Red */
+  }
+  .detalles-pelicula {
+    margin-top: 2rem;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) {
+  body {
+    background-color: #bcde00; /* Green */
+  }
+  .detalles-pelicula {
+    margin-top: 2rem;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  body {
+    background-color: #00e53d; /* Blue */
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  body {
+    background-color: #00858a; /* Yellow */
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  body {
+    background-color: #c800c8; /* Pink */
+  }
+}
