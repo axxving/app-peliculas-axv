@@ -61,14 +61,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: var(--transparente);
+  border: 2px solid var(--transparente);
+  width: 200px;
+  height: 200px;
 }
 
 .rounded-circle {
-  width: 50px;
-  margin-right: 1rem;
-  margin: 0 auto;
-}
+    width: 50px;
+}   
 
 .actor-name {
   margin-top: 1rem;
