@@ -1,14 +1,11 @@
 import {
   Box,
-  Divider,
   List,
   ListItem,
   ListItemButton,
-  ListItemIcon,
   ListItemText,
 } from "@mui/material";
 import React from "react";
-import InboxIcon from "@mui/icons-material/Inbox";
 
 export function NavListDrawer({ navLinks }) {
   return (

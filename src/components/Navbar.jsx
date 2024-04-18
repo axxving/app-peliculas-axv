@@ -10,21 +10,22 @@ import {
 import React, { useState } from "react";
 import { NavListDrawer } from "./NavListDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
+import { NavLink } from "react-router-dom";
 
 const navLinks = [
   {
-    title: "Home",
-    path: "#",
+    title: "Inicio",
+    path: "/Home",
   },
 
   {
-    title: "Login",
-    path: "#login",
+    title: "INICIAR SESIÓN",
+    path: "/login",
   },
 
   {
-    title: "Register",
-    path: "#register",
+    title: "Registro",
+    path: "/register",
   },
 ];
 
@@ -45,15 +46,15 @@ export function Navbar() {
             <MenuIcon></MenuIcon>
           </IconButton>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            News
+            PILU
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navLinks.map((item) => (
               <Button
                 color="inherit"
                 key={item.title}
-                component="a"
-                href={item.path}
+                component={NavLink}
+                to={item.path}
               >
                 {item.title}
               </Button>
