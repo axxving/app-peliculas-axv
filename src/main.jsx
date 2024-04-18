@@ -14,6 +14,7 @@ import "@fontsource/roboto/700.css";
 import "./assets/css/index.css";
 
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import { Navbar } from "./components/Navbar";
 
 const theme = createTheme({
   palette: {
@@ -35,6 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Header />
+      <Navbar />
       <App />
       <Card />
       <Cards />
