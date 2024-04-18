@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { App } from "./components/App";
 import { Header } from "./components/Header";
+import { Cards } from "./components/Cards";
 import { Card } from "./components/Card";
 
 import "@fontsource/roboto/300.css";
@@ -36,6 +37,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Header />
       <App />
       <Card />
+      <Cards />
     </ThemeProvider>
   </React.StrictMode>
 );
