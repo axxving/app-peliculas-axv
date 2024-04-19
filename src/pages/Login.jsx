@@ -13,6 +13,7 @@ import {
   createTheme,
   Container,
 } from "@mui/material";
+import backgroundImage from "../assets/imgs/1.jpg";
 
 const theme = createTheme({
   palette: {
@@ -98,8 +99,16 @@ export const Login = () => {
             </Link>
           </Typography>
         </Grid>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          sx={{
+            background: `url(${backgroundImage})`,
+            backgroundSize: "cover",
+          }}
+        />
       </Container>
     </ThemeProvider>
   );
 };
-
