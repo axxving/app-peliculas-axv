@@ -47,7 +47,7 @@ export const Home = () => {
                 ¡Relájate y disfruta!
               </Typography>
               <Typography variant="body1" gutterBottom>
-                En [Nombre de tu empresa], entendemos lo emocionante que es
+                En PILU, entendemos lo emocionante que es
                 esperar tu pedido. Queremos que te sientas tranquilo y seguro de
                 que llegará a ti en el momento justo. Mientras esperas, tómate
                 un momento para relajarte y disfrutar del proceso.
