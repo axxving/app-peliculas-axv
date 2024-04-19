@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { App } from "./components/App";
-import { Header } from "./components/Header";
-import { Cards } from "./components/Cards";
-import { Card } from "./components/Card";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -39,11 +36,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <CssBaseline />
-        <Header />
         <Navbar />
         <App />
-        <Card />
-        <Cards />
       </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>

@@ -19,7 +19,7 @@ const navLinks = [
   },
 
   {
-    title: "INICIAR SESIÓN",
+    title: "Iniciar sesión",
     path: "/login",
   },
 
